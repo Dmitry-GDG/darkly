@@ -1,4 +1,4 @@
-[назад в README](README.md)
+[README](README.md)  [subject](sublect_ru.md)  glossarium  [defense](defense.md)
 
 
-[назад в README](README.md)
+[README](README.md)  [subject](sublect_ru.md)  glossarium  [defense](defense.md)
