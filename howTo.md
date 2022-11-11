@@ -72,8 +72,10 @@ VBoxManage convertfromraw --format VDI Darkly_i386.iso Darkly_i386.vdi
 	If you would like to network multiple machines together, repeat steps this paragraph 5 for each guest machine.
 	```
 
-5. Go to the VM "darkly" Settings -> "Network"
-	- section "Attached to": choose 
+5. Launch VM and get the IP address the webside you need to audit 
+
+
+6. That's all. Next step you will do on your Mac: type this IP address into your browser (?) and audit the website. Good luck!
 
 
 
