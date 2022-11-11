@@ -63,7 +63,7 @@ VBoxManage convertfromraw --format VDI Darkly_i386.iso Darkly_i386.vdi
 	Name: vboxnet0 (NOTE: this should be the name of the network you created in the previous steps)
 	In "Promiscuous Mode" select "Allow VMs"
 	```
-	<img width="653" alt="Screen Shot 2022-11-11 at 11 01 11" src="https://user-images.githubusercontent.com/84193980/201294654-c3a91b31-9795-4be9-bfb1-4f270ac8fa88.png">
+	<img width="653" alt="Screen Shot 2022-11-11 at 11 01 11" src="https://user-images.githubusercontent.com/84193980/201295011-dbbaa805-d7f9-400a-8658-72c3a770c027.png">
 
 	- Click OK
 
