@@ -27,28 +27,27 @@ VBoxManage convertfromraw --format VDI Darkly_i386.iso Darkly_i386.vdi
 	- choose Darkly_i386.vdi -> "Open" -> "Choose" 
 	- fill "Name" field (darkly) and type "Create".
 
-4. Create a new host-only adapter in VirtualBox
-	- **Create the Virtual Network.** First, you must set up a virtual network that the host-only adapter(s) will communicate through.
+4. **Create a new host-only adapter in VirtualBox**. Create the Virtual Network. First, you must set up a virtual network that the host-only adapter(s) will communicate through.
 
-		a. In the VirtualBox window, click File -> Host Network Manager -> Create.
+	- In the VirtualBox window, click File -> Host Network Manager -> Create.
 
-		b. Check Enable under the DHCP Server column of the network you just created.
+	- Check Enable under the DHCP Server column of the network you just created.
 
-		c. Select your network and click Properties.
+	- Select your network and click Properties.
 
-		d. In the Adapter Tab, select Configure Adapter Manually and use the following settings:
-		```
-		IPv4 Address: 192.168.56.1
-		IPv4 Network Mask: 255.255.255.0
-		```
-		e. In the DHCP Server Tab, make sure that Enable Server box is checked, and use the following settings:
-		```
-		Server Address: 192.168.56.100
-		Server Mask: 255.255.255.0
-		Lower Address Bound: 192.168.56.3
-		Upper Address Bound: 192.168.56.254
-		```
-		f. Click Apply and then Close
+	- In the Adapter Tab, select Configure Adapter Manually and use the following settings:
+	```
+	IPv4 Address: 192.168.56.1
+	IPv4 Network Mask: 255.255.255.0
+	```
+	- In the DHCP Server Tab, make sure that Enable Server box is checked, and use the following settings:
+	```
+	Server Address: 192.168.56.100
+	Server Mask: 255.255.255.0
+	Lower Address Bound: 192.168.56.3
+	Upper Address Bound: 192.168.56.254
+	```
+	- Click Apply and then Close
 
 5. **Add a Host-Only Adapter to the Guest Machine.** For each guest you want to communicate with using the network from the previous step, you need to add a host-only adapter.
 
