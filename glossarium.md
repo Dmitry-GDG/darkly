@@ -28,7 +28,7 @@
  
 Мы можем использовать это для `Brute force` процесса входа в систему.
 
-Для этого из [OWASP SecLists] (https://github.com/danielmiessler/SecLists) используем наиболее часто используемые имена [пользователей](https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt) и [паролей](https://github.com/danielmiessler/SecLists/blob/master/Passwords/2020-200_most_used_passwords.txt)
+Для этого из [OWASP SecLists] (https://github.com/danielmiessler/SecLists) используем наиболее часто используемые [имена пользователей](https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt) и [паролей](https://github.com/danielmiessler/SecLists/blob/master/Passwords/2020-200_most_used_passwords.txt)
 
 Используя простой скрипт, мы можем попробовать каждую комбинацию наиболее часто используемых паролей и имен пользователей, и если мы не видим изображение «WrongAnswer.gif» на экране, то это означает, что мы успешно вошли в систему!
  
