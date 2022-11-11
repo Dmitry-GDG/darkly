@@ -29,7 +29,7 @@ VBoxManage convertfromraw --format VDI Darkly_i386.iso Darkly_i386.vdi
 
 4. Create a new host-only adapter in VirtualBox
 	- **Create the Virtual Network.** First, you must set up a virtual network that the host-only adapter(s) will communicate through.
-	
+
 		a. In the VirtualBox window, click File -> Host Network Manager -> Create.
 
 		b. Check Enable under the DHCP Server column of the network you just created.
@@ -49,21 +49,27 @@ VBoxManage convertfromraw --format VDI Darkly_i386.iso Darkly_i386.vdi
 		Upper Address Bound: 192.168.56.254
 		```
 		f. Click Apply and then Close
-	- **Add a Host-Only Adapter to the Guest Machine.** For each guest you want to communicate with using the network from the previous step, you need to add a host-only adapter.
 
-		g. Select the appropriate guest machine
+5. **Add a Host-Only Adapter to the Guest Machine.** For each guest you want to communicate with using the network from the previous step, you need to add a host-only adapter.
 
-		h. Click Settings -> Network
+	- Select the appropriate guest machine (darkly)
 
-		i. Under the Adapter 2 tab, input the following settings:
-		```
-		Enable Network Adapter: Checked
-		Attached to: Host-Only Adapter
-		Name: vboxnet0 (NOTE: this should be the name of the network you created in the previous steps)
-		```
-		j. Click OK
+	- Click Settings -> Network
 
-	The host-only adapter should be ready to use on this machine. If you would like to network multiple machines together, repeat steps g-j for each guest machine.
+	- Under the Adapter tab, input the following settings:
+	```
+	Enable Network Adapter: Checked
+	Attached to: Host-Only Adapter
+	Name: vboxnet0 (NOTE: this should be the name of the network you created in the previous steps)
+	In "Promiscuous Mode" select "Allow VMs"
+	```
+	
+	- Click OK
+
+	The host-only adapter should be ready to use on this machine. 
+	```
+	If you would like to network multiple machines together, repeat steps this paragraph 5 for each guest machine.
+	```
 
 5. Go to the VM "darkly" Settings -> "Network"
 	- section "Attached to": choose 
