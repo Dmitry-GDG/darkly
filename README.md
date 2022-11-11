@@ -1,5 +1,5 @@
 | README | [subject](sublect_ru.md) | [glossarium](glossarium.md) | [How To](howTo.md) | [defense](defense.md) |
-|-|-|-|-|
+|-|-|-|-|-|
 
 # darkly
 
@@ -13,4 +13,4 @@
 - [defense](defense.md)
 
 | README | [subject](sublect_ru.md) | [glossarium](glossarium.md) | [How To](howTo.md) | [defense](defense.md) |
-|-|-|-|-|
+|-|-|-|-|-|

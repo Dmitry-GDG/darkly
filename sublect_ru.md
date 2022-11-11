@@ -1,5 +1,5 @@
 | [README](README.md) | subject | [glossarium](glossarium.md) | [How To](howTo.md) | [defense](defense.md) |
-|-|-|-|-|
+|-|-|-|-|-|
 
 
 # darkly
@@ -79,4 +79,4 @@
 Сдайте задание в Гит репозиторий как обычно. Во время защиты будет оцениваться только работа внутри вашего репозитория. Не стесняйтесь перепроверять имена ваших папок и файлов, чтобы убедиться, что они верны.
 
 | [README](README.md) | subject | [glossarium](glossarium.md) | [How To](howTo.md) | [defense](defense.md) |
-|-|-|-|-|
+|-|-|-|-|-|
