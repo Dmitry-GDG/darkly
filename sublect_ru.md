@@ -1,4 +1,4 @@
-[README](README.md)  subject  [glossarium](glossarium.md)  [defense](defense.md)
+[README](README.md)\tsubject\t[glossarium](glossarium.md)\t[defense](defense.md)
 
 # darkly
 
