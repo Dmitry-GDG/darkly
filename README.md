@@ -1,4 +1,5 @@
-README  [subject](sublect_ru.md)  [glossarium](glossarium.md)  [defense](defense.md)
+| README | [subject](sublect_ru.md) | [glossarium](glossarium.md) | [defense](defense.md) |
+|-|-|-|-|
 
 # darkly
 
@@ -8,4 +9,5 @@ README  [subject](sublect_ru.md)  [glossarium](glossarium.md)  [defense](defense
 - [glossarium](glossarium.md)
 - [defense](defense.md)
 
-README  [subject](sublect_ru.md)  [glossarium](glossarium.md)  [defense](defense.md)
+| README | [subject](sublect_ru.md) | [glossarium](glossarium.md) | [defense](defense.md) |
+|-|-|-|-|
