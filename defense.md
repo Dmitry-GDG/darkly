@@ -4,9 +4,11 @@
 #Защита проекта
 
 Запускаем ВМ, получаем на экране IP адрес запущенного сервера. 
+
 <img width="1200" alt="Screen Shot 2022-11-11 at 11 16 21" src="https://user-images.githubusercontent.com/84193980/201297810-9f5e8917-2f55-4ee0-96ad-2d347395af7f.png">
 
 На Маке в браузере вводим этот адрес:
+
 <img width="1276" alt="Screen Shot 2022-11-11 at 11 23 36" src="https://user-images.githubusercontent.com/84193980/201297804-96514ae7-6e1f-46de-b987-7e2d2c776cee.png">
 
 <details><summary>01. Brute force данных для входа</summary>
@@ -29,6 +31,7 @@
  <img width="1169" alt="Screen Shot 2022-11-11 at 14 36 53" src="https://user-images.githubusercontent.com/84193980/201332789-dce4b467-d603-40db-897b-82bceeffb68f.png">
  
 Когда мы вводим неправильный пароль, мы видим, что веб-страница перенаправляет на следующую страницу, на которой есть очень специфическое изображение images/WrongAnswer.gif:
+
 <img width="1904" alt="Screen Shot 2022-11-11 at 14 35 05" src="https://user-images.githubusercontent.com/84193980/201332820-9375ec69-2e0b-4a86-b11c-2f21fc528212.png">
  
 Мы можем использовать это для `Brute force` процесса входа в систему.
@@ -40,6 +43,7 @@
 </details>
 
 Брутфорсем получены следующие пароли:
+
 <img width="469" alt="Screen Shot 2022-11-12 at 10 19 08" src="https://user-images.githubusercontent.com/84193980/201462532-0daca35f-8422-41f0-9d10-5efb0e9912f3.png">
 
 Заходим по адресу: http://192.168.56.3/?page=signin, вводим логин и пароль. Наслаждаемся!
