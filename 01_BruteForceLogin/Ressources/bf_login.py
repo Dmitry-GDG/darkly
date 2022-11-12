@@ -26,5 +26,3 @@ for u in u_list:
                 break
         except:
             pass
-# import sys
-# print(sys.path)
