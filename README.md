@@ -1,5 +1,5 @@
-| README | [subject](sublect_ru.md) | [glossarium](glossarium.md) | [How To](howTo.md) | [defense](defense.md) |
-|-|-|-|-|-|
+| README | [subject](sublect_ru.md) | [How to start a web server](howTo.md) | [defense](defense.md) |
+|-|-|-|-|
 
 # darkly
 
@@ -12,5 +12,5 @@
 - [How To](howTo.md)
 - [defense](defense.md)
 
-| README | [subject](sublect_ru.md) | [glossarium](glossarium.md) | [How To](howTo.md) | [defense](defense.md) |
-|-|-|-|-|-|
+| README | [subject](sublect_ru.md) | [How to start a web server](howTo.md) | [defense](defense.md) |
+|-|-|-|-|

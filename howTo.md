@@ -1,7 +1,7 @@
-| [README](README.md) | [subject](sublect_ru.md) | [glossarium](glossarium.md) | How To | [defense](defense.md) |
-|-|-|-|-|-|
+| [README](README.md) | [subject](sublect_ru.md) | How to start a web server | [defense](defense.md) |
+|-|-|-|-|
 
-# How To
+# How to start a web server
 
 1. Download [the image](https://cdn.intra.42.fr/isos/Darkly_i386.iso)
 2. Go to that folder and convert the downloaded image to a format supported by VirtualBox:
@@ -80,5 +80,5 @@ VBoxManage convertfromraw --format VDI Darkly_i386.iso Darkly_i386.vdi
 <img width="1276" alt="Screen Shot 2022-11-11 at 11 23 36" src="https://user-images.githubusercontent.com/84193980/201297804-96514ae7-6e1f-46de-b987-7e2d2c776cee.png">
 
 
-| [README](README.md) | [subject](sublect_ru.md) | [glossarium](glossarium.md) | How To | [defense](defense.md) |
-|-|-|-|-|-|
+| [README](README.md) | [subject](sublect_ru.md) | How to start a web server | [defense](defense.md) |
+|-|-|-|-|

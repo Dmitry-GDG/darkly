@@ -1,4 +1,4 @@
-| [README](README.md) | [subject](sublect_ru.md) | glossarium | [How To](howTo.md) | [defense](defense.md) |
+| [README](README.md) | [subject](sublect_ru.md) | [How To Run Webserver](howTo.md) | [defense](defense.md) |
 |-|-|-|-|-|
 
 [The main source of information](https://owasp.org)
@@ -33,11 +33,6 @@
 Используя простой скрипт, мы можем попробовать каждую комбинацию наиболее часто используемых паролей и имен пользователей, и если мы не видим изображение «WrongAnswer.gif» на экране, то это означает, что мы успешно вошли в систему!
  
 <img width="469" alt="Screen Shot 2022-11-12 at 10 19 08" src="https://user-images.githubusercontent.com/84193980/201462532-0daca35f-8422-41f0-9d10-5efb0e9912f3.png">
-
-### Как исправить:
-- Используйте более надежное имя пользователя и пароль
-- Brute force detection tools
-- Captcha
 
 </details>
 
@@ -275,5 +270,5 @@
 
 </details>
 
-| [README](README.md) | [subject](sublect_ru.md) | glossarium | [How To](howTo.md) | [defense](defense.md) |
+| [README](README.md) | [subject](sublect_ru.md) | [How To Run Webserver](howTo.md) | [defense](defense.md) |
 |-|-|-|-|-|
