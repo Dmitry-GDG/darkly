@@ -36,6 +36,8 @@
 
 ### Как исправить:
 - Используйте более надежное имя пользователя и пароль
+- Brute force detection tools
+- Captcha
 
 </details>
 

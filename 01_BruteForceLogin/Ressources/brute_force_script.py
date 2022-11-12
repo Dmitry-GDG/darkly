@@ -4,13 +4,14 @@ import sys
 import re
 
 # expression = "images/WrongAnswer.gif"
+# necessarry files can be downloaded from https://github.com/danielmiessler/SecLists
 
 # User names list
-u_file = open("users.txt", 'r')
+u_file = open("top-usernames-shortlist.txt", 'r')
 u_list = u_file.readlines()
 
 # Passwords list
-p_file = open("passwords.txt", 'r')
+p_file = open("2020-200_most_used_passwords.txt", 'r')
 p_list = p_file.readlines()
 
 for u in u_list:
@@ -25,3 +26,5 @@ for u in u_list:
                 break
         except:
             pass
+# import sys
+# print(sys.path)
