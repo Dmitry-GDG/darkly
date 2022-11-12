@@ -96,7 +96,7 @@
 	```bash
 	(git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 	```
-	- Выведем на экран список баз данных, для этого перейдём в папку программы и запустим:
+	- Выведем на экран список таблиц, для этого перейдём в папку программы и запустим:
 	```bash
 	python3 sqlmap.py -u http://192.168.56.3/index.php\?page\=member\&id\=1\&Submit\=Submit\# --tables
 	```
@@ -145,7 +145,7 @@
 	 ```
 	<img width="1560" alt="Screen Shot 2022-11-12 at 16 24 55" src="https://user-images.githubusercontent.com/84193980/201477797-c91bba96-6d18-4aab-81f4-6d212cff7c24.png">
 
-- Нас интересует пользователь в Surname которого указано "Decrypt this password"
+- Нас интересует пользователь, в Surname которого указано "Decrypt this password"
 
 </details>
 
