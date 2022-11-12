@@ -62,7 +62,7 @@
 
 </details>
 
-<details><summary>02. Атака с внедрением SQL</summary>
+<details><summary>02. Атака с внедрением SQL на странице поиска пользователя</summary>
 
 | Найдено на странице | http://192.168.56.3/index.php?page=member |
 |-|-|
@@ -164,9 +164,9 @@ lower all the char: fortytwo
 
 </details>
 
-<details><summary>03. </summary>
+<details><summary>03. Атака с внедрением SQL на странице поиска картинки</summary>
 
-| Найдено на странице |  |
+| Найдено на странице | http://192.168.56.3/index.php?page=searchimg |
 |-|-|
 
 <details><summary>Что такое `` и как взломано</summary>
