@@ -60,6 +60,240 @@
 
 </details>
 
+<details><summary>02. </summary>
+
+| Найдено на странице | http://192.168.56.3/index.php?page=member |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>03. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>04. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>05. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>06. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>07. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>08. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>09. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>10. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>11. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>12. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>13. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
+<details><summary>14. </summary>
+
+| Найдено на странице |  |
+|-|-|
+
+<details><summary>Что такое `` и как взломано</summary>
+
+
+
+</details>
+
+
+
+### Как исправить:
+- 
+
+</details>
+
 
 | [README](README.md) | [subject](sublect_ru.md) | [How to start a web server](howTo.md) | defense |
 |-|-|-|-|
