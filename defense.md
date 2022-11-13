@@ -326,8 +326,12 @@ https://habr.com/ru/company/otus/blog/511428/
 ## Как обнаружено ##
 
 В Chrome на вышеуказанной странице в районе кнопки Submit нажать правой кнопкой мыши -> Inspect -> Edit attribute -> Изменить адрес электронной почты (добавить что-либо)
+	
+<img width="1397" alt="Screen Shot 2022-11-13 at 13 45 48" src="https://user-images.githubusercontent.com/84193980/201518128-aa9869e2-617a-44de-8896-3c7aadda86db.png">
 
 Теперь, нажав на кнопку Submit получаем страницу с флагом
+	
+<img width="906" alt="Screen Shot 2022-11-13 at 13 43 03" src="https://user-images.githubusercontent.com/84193980/201518137-6534e19e-e753-4935-87a2-4b3d270593a6.png">
 
 </details>
 
