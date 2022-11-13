@@ -155,7 +155,15 @@ python3 bf_login.py
 
 Полученный ключ: 5ff9d0165b4f92b14994e5c685cdce28
 
-[Convert a string to a MD5 hash](https://md5.gromweb.com/?md5=5ff9d0165b4f92b14994e5c685cdce28): FortyTwo (like oktoberfest in other keys)
+Нам надо сделать: Decrypt this password -> then lower all the char. Sh256 on it and it's good ! 
+
+Вспомним данные, полученные ранее:
+
+<img width="2010" alt="Screen Shot 2022-11-12 at 13 30 10" src="https://user-images.githubusercontent.com/84193980/201477756-53d0b759-bbe1-4e0e-9c3f-ffdefdb32913.png">
+
+MD5 hash oktoberfest это 60e9032c586fb422e2c16dee6286cf10
+
+По аналогии [Конвертируем MD5 hash нашего ключа](https://md5.gromweb.com/?md5=5ff9d0165b4f92b14994e5c685cdce28): FortyTwo
 
 lower all the char: fortytwo
 
