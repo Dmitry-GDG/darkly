@@ -340,7 +340,33 @@ THE FLAG IS : 1D4855F7337C0C14B6F44946872C4EB33853F40B2D54393FBE94F49F1E19BBB0
 
 </details>
 
-<details><summary>06. Неограниченная загрузка файлов</summary>
+<details><summary>06. Незащищенная страница опроса</summary>
+
+| Найдено на странице | http://192.168.56.3/index.php?page=survey |
+|-|-|
+
+<details><summary>Что такое `Незащищенная страница опроса` и как обнаружено</summary>
+
+У пользователя становится возможным "накрутка голосования"
+
+## Как обнаружено ##
+
+На вышеуказанной странице в районе первой ячейки Grade нажать правой кнопкой мыши -> Inspect -> Edit attribute -> Изменить значение, отличное от 1 (добавить что-либо)
+
+Теперь при выборе в таблице изменённого значения получим флаг:
+
+</details>
+
+THE FLAG IS 03A944B434D5BAFF05F46C4BEDE5792551A2595574BCAFC9A6E25F67C382CCAA
+
+### Как исправить:
+- Стратегии проверки данных (принятие заведомо хороших, отклонение заведомо плохих, санация)
+
+----
+
+</details>
+
+<details><summary>07. Неограниченная загрузка файлов</summary>
 
 | Найдено на странице | http://192.168.56.3/index.php?page=upload |
 |-|-|
@@ -376,26 +402,6 @@ The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
 </details>
 
-<details><summary>07. </summary>
-
-| Найдено на странице | http://192.168.56.3/ |
-|-|-|
-
-<details><summary>Что такое `` и как обнаружено</summary>
-
-
-
-</details>
-
-
-
-### Как исправить:
-- 
-
-----
-
-</details>
-
 <details><summary>08. </summary>
 
 | Найдено на странице | http://192.168.56.3/ |
@@ -403,7 +409,7 @@ The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
 <details><summary>Что такое `` и как обнаружено</summary>
 
-
+## Как обнаружено ##
 
 </details>
 
@@ -423,7 +429,7 @@ The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
 <details><summary>Что такое `` и как обнаружено</summary>
 
-
+## Как обнаружено ##
 
 </details>
 
@@ -443,7 +449,7 @@ The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
 <details><summary>Что такое `` и как обнаружено</summary>
 
-
+## Как обнаружено ##
 
 </details>
 
@@ -463,7 +469,7 @@ The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
 <details><summary>Что такое `` и как обнаружено</summary>
 
-
+## Как обнаружено ##
 
 </details>
 
@@ -483,7 +489,7 @@ The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
 <details><summary>Что такое `` и как обнаружено</summary>
 
-
+## Как обнаружено ##
 
 </details>
 
@@ -503,7 +509,7 @@ The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
 <details><summary>Что такое `` и как обнаружено</summary>
 
-
+## Как обнаружено ##
 
 </details>
 
@@ -523,7 +529,7 @@ The flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
 <details><summary>Что такое `` и как обнаружено</summary>
 
-
+## Как обнаружено ##
 
 </details>
 
