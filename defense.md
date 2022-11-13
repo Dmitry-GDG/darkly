@@ -40,9 +40,14 @@
 
 Используя простой скрипт, мы можем попробовать каждую комбинацию наиболее часто используемых паролей и имен пользователей, и если мы не видим изображение «WrongAnswer.gif» на экране, то это означает, что мы успешно вошли в систему!
 
+В папке Resources (default address 192.168.56.3, можно просто Enter):
+```
+python3 bf_login.py
+```
+
 </details>
 
-Брутфорсем получены следующие пароли:
+Брутфорсом получены следующие пароли:
 
 <img width="469" alt="Screen Shot 2022-11-12 at 10 19 08" src="https://user-images.githubusercontent.com/84193980/201462532-0daca35f-8422-41f0-9d10-5efb0e9912f3.png">
 
@@ -138,11 +143,10 @@
 
 	или
 
-	Запустить скрипт:
+	В папке Resources (default address 192.168.56.3, можно просто Enter):
 	```
 	./get_page.sh
-	192.168.56.3
-	 ```
+	```
 	<img width="1560" alt="Screen Shot 2022-11-12 at 16 24 55" src="https://user-images.githubusercontent.com/84193980/201477797-c91bba96-6d18-4aab-81f4-6d212cff7c24.png">
 
 - Нас интересует пользователь, в Surname которого указано "Decrypt this password"
