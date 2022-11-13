@@ -49,7 +49,7 @@ python3 bf_login.py
 
 Брутфорсом получены следующие пароли:
 
-<img width="469" alt="Screen Shot 2022-11-12 at 10 19 08" src="https://user-images.githubusercontent.com/84193980/201462532-0daca35f-8422-41f0-9d10-5efb0e9912f3.png">
+<img width="581" alt="Screen Shot 2022-11-13 at 07 06 55" src="https://user-images.githubusercontent.com/84193980/201506871-5f672d26-6b82-41d6-813d-01639bbe05ff.png">
 
 Заходим по адресу: http://192.168.56.3/?page=signin, вводим логин и пароль. Наслаждаемся!
 
