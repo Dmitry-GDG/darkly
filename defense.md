@@ -356,8 +356,12 @@ THE FLAG IS : 1D4855F7337C0C14B6F44946872C4EB33853F40B2D54393FBE94F49F1E19BBB0
 ## Как обнаружено ##
 
 На вышеуказанной странице в районе первой ячейки Grade нажать правой кнопкой мыши -> Inspect -> Edit attribute -> Изменить значение, отличное от 1 (добавить что-либо)
+	
+<img width="1692" alt="Screen Shot 2022-11-13 at 14 12 34" src="https://user-images.githubusercontent.com/84193980/201519332-230127a4-5836-425c-bd77-5bf7a72ad2e1.png">
 
 Теперь при выборе в таблице изменённого значения получим флаг:
+	
+<img width="891" alt="Screen Shot 2022-11-13 at 14 11 47" src="https://user-images.githubusercontent.com/84193980/201519329-6761f8be-b798-45d5-a535-170a7a7faef4.png">
 
 </details>
 
