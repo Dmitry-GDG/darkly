@@ -438,6 +438,8 @@ Cookie: Cookie_name_1=cookie_value1; Cookie_name_2=cookie_value2 и т. д.
 - Выберите Конфиденциальность и безопасность (Privacy and security) -> Файлы cookie и другие данные сайтов (Cookies and other site data).
 - Выберите See all cookies and site data
 - Выберите свой сайт 192.168.56.3
+	
+<img width="693" alt="Screen Shot 2022-11-13 at 14 55 17" src="https://user-images.githubusercontent.com/84193980/201521836-743c6c84-ef7d-4c5f-8633-616879b4fcc1.png">
 
 В указанном файле cookie есть поле 
 	Content 68934a3e9455fa72420237eb05902327
@@ -462,6 +464,8 @@ open flag.html
 chmod 777 get_flag.sh
 ./get_flag.sh
 ```
+	
+<img width="481" alt="Screen Shot 2022-11-13 at 15 16 09" src="https://user-images.githubusercontent.com/84193980/201521860-2291d9fb-3de0-4c93-94cf-1c24371a3291.png">
 
 </details>
 
