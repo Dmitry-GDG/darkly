@@ -335,6 +335,7 @@ https://habr.com/ru/company/otus/blog/511428/
 ```bash
 curl -X POST -H 'Content-Type: multipart/form-data' -F 'Upload=send' -F 'uploaded=@1.test;type=image/jpeg' http://192.168.56.3/index.php\?page\=upload\# | grep "flag"
 ```
+<img width="1240" alt="Screen Shot 2022-11-13 at 12 57 05" src="https://user-images.githubusercontent.com/84193980/201516949-7816f45b-e148-4925-93a5-e3e34cf495a3.png">
 
 </details>
 
