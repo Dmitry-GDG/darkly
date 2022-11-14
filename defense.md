@@ -9,7 +9,7 @@
 
 </details>
 
-<details><summary>На Маке в браузере вводим этот адрес:</summary>
+<details><summary>На Маке в браузере вводим этот IP адрес</summary>
 
 <img width="1276" alt="Screen Shot 2022-11-11 at 11 23 36" src="https://user-images.githubusercontent.com/84193980/201297804-96514ae7-6e1f-46de-b987-7e2d2c776cee.png">
 
