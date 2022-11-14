@@ -3,13 +3,19 @@
 
 #Защита проекта
 
-Запускаем ВМ, получаем на экране IP адрес запущенного сервера. 
+<details><summary>Запускаем ВМ, получаем на экране IP адрес запущенного сервера.</summary>
 
 <img width="1200" alt="Screen Shot 2022-11-11 at 11 16 21" src="https://user-images.githubusercontent.com/84193980/201297810-9f5e8917-2f55-4ee0-96ad-2d347395af7f.png">
 
-На Маке в браузере вводим этот адрес:
+</details>
+
+<details><summary>На Маке в браузере вводим этот адрес:</summary>
 
 <img width="1276" alt="Screen Shot 2022-11-11 at 11 23 36" src="https://user-images.githubusercontent.com/84193980/201297804-96514ae7-6e1f-46de-b987-7e2d2c776cee.png">
+
+</details>
+
+# Обнаруженные уязвимости: #
 
 <details><summary>01. Brute force данных для входа</summary>
 
