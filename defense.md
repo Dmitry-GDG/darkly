@@ -512,21 +512,51 @@ The flag is : b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0
 
 </details>
 
-<details><summary>10. </summary>
+<details><summary>10. Незащищенный htpasswd</summary>
 
-| Найдено на странице | http://192.168.56.3/ |
+| Найдено на странице | http://192.168.56.3/robots.txt |
 |-|-|
 
-<details><summary>Что такое `` и как обнаружено</summary>
+<details><summary>Что такое `Незащищенный htpasswd` и как обнаружено</summary>
+
+Файл `htpasswd` хранит имена пользователей и пароли для аутентификации пользователей HTTP.
 
 ## Как обнаружено ##
 
+В браузере перейти
+
+	http://192.168.56.3/robots.txt
+
+Мы видим, что существует папка /whatever. Перейдём в неё:
+
+	http://192.168.56.3/whatever
+
+В этой папке есть доступ к файлу htpasswd. Скачаем этот файл. Внутри него только одна строчка:
+
+	root:437394baff5aa33daa618be47b75cb49
+
+Уже опробованным нами методом произведём:
+
+[Reverse MD5 hash of 437394baff5aa33daa618be47b75cb49](https://md5.gromweb.com/?md5=437394baff5aa33daa618be47b75cb49) : qwerty123@
+
+В браузере перейдём:
+
+	http://192.168.56.3/admin/
+
+и введём 
+
+```
+Username: root
+Password: qwerty123@
+```
+
+
 </details>
 
-
+The flag is : d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 
 ### Как исправить:
-- 
+- Права доступа к файлу htpasswd должны предоставляться только администраторам, а не тем, кто просто добавляет «/что угодно» к домашнему URL-адресу.
 
 ----
 
