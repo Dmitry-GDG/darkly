@@ -13,22 +13,7 @@ fi
 inspectUrl="http://"${ip}"/.hidden/"
 # echo "${url}"
 
-# response=$(curl -s -G -d "id=1 UNION SELECT title, comment FROM Member_images.list_images" -d "Submit=Submit" "$url")
-
-# dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-
-# result=$(wget -q --recursive -e robots=off --convert-links $url)
-# result=$(find . -type f -name 'README' -exec cat {} \; | grep -Ev 'T|N|D')
-# echo "FLAG: ${result}"
-# rm -rf $dir/$ip
-
-# wget -q -e robots=off -r -nH --no-parent --reject="index.html*" "$url"
-# response=$(eval "find .hidden -name "README" -exec grep -l -e '[0-9]' {} +")
-# cat $response
-# rm -rf .hidden
-
 regex="href=\"[A-z]*"
-# baseUrl="http://10.11.200.193/.hidden/"
 found=""
 
 total=20000
@@ -77,5 +62,3 @@ searchFlag() {
 
 
 searchFlag $inspectUrl
-# echo ""
-# echo "$found"
