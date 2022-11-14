@@ -648,6 +648,8 @@ The flag is : f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
 ## Как обнаружено ##
 
 Проинспектируем указанную страницу. Мы видим, что картинка вставлена непосредственно в поле данных тега объекта:
+	
+<img width="1499" alt="Screen Shot 2022-11-14 at 09 48 15" src="https://user-images.githubusercontent.com/84193980/201598378-f9351e58-2d15-4fcb-8897-8951e3c35bb0.png">
 
 Внедрение html обычно не работает, потому что кавычки обрабатываются правильно. Однако вы можете внедрить сериализованный html (сериализация преобразует объект в поток байтов).
 
@@ -662,6 +664,9 @@ The flag is : f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
 ```
 http://192.168.56.3/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydA==
 ```
+	
+<img width="829" alt="Screen Shot 2022-11-14 at 10 01 31" src="https://user-images.githubusercontent.com/84193980/201598332-13e15251-a8f7-4962-8cea-866991da22c5.png">
+
 **Это работает, потому что ответ на запрос принимает text/html**
 
 </details>
