@@ -602,6 +602,7 @@ The flag is : d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 
 	http://192.168.56.3/.hidden
 
+<img width="503" alt="Screen Shot 2022-11-14 at 10 30 02" src="https://user-images.githubusercontent.com/84193980/201631837-35732727-3a0f-4d31-9a43-0160a861129b.png">
 
 В этой папке есть файл README, в котором только одна строчка:
 
@@ -616,6 +617,8 @@ The flag is : d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 chmod 777 get_flag.sh
 ./get_flag.sh
 ``` 
+	
+<img width="1252" alt="Screen Shot 2022-11-14 at 12 50 35" src="https://user-images.githubusercontent.com/84193980/201631880-14703e67-800d-421a-b90f-a9d510e13447.png">
 
 </details>
 
