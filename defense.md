@@ -743,8 +743,11 @@ THE FLAG IS : 928D819FC19405AE09921A2B71227BD9ABA106F9D2D37AC412E9E5A750F1506D
 |-|-|
 
 [A7:2017-Cross-Site Scripting (XSS)](https://owasp.org/www-project-top-ten/2017/A7_2017-Cross-Site_Scripting_(XSS).html)
+
 [Cross Site Scripting (XSS)](https://owasp.org/www-community/attacks/xss/)
+
 [Cross Site Scripting Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+
 [XSS Filter Evasion Cheat Sheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet)
 
 <details><summary>Что такое `Выполнение непроверенного пользовательского контента` и как обнаружено</summary>
