@@ -8,7 +8,6 @@
 [Образ для тестирования](https://cdn.intra.42.fr/isos/Darkly_i386.iso)
 
 - [subject](sublect_ru.md)
-- [glossarium](glossarium.md)
 - [How To](howTo.md)
 - [defense](defense.md)
 
