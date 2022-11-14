@@ -571,7 +571,7 @@ The flag is : d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 
 <details><summary>11. Подделка межсайтовых запросов</summary>
 
-| Найдено на странице | http://192.168.56.3/ |
+| Найдено на странице | [http://192.168.56.3/](http://192.168.56.3/index.php?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f) |
 |-|-|
 
 [Click for more information (OWASP)](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet)
@@ -585,9 +585,12 @@ The flag is : d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 ## Как обнаружено ##
 
 Внизу главной страницы сайта есть ссылка `BornToSec`. Нажмём на неё:
+	
+<img width="599" alt="Screen Shot 2022-11-14 at 08 04 32" src="https://user-images.githubusercontent.com/84193980/201585904-5a703ae5-8144-4e8a-8b95-74df9d2b826f.png">
 
 Мы попали на страницу http://192.168.56.3/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f . Проинспектируем код:
 
+<img width="1489" alt="Screen Shot 2022-11-14 at 08 06 57" src="https://user-images.githubusercontent.com/84193980/201585936-0f182d50-a004-48f0-8e42-53afa0e37258.png">
 
 В коде есть закомментированные блоки кода. Часть закомментированного фрагмента даёт подсказку:
 
@@ -598,6 +601,8 @@ The flag is : d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff
 ```
 curl 'http://192.168.56.3/index.php?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f' -H 'User-Agent: ft_bornToSec' -H 'Referer: https://www.nsa.gov/' | grep 'images/win.png'
 ```
+
+<img width="1203" alt="Screen Shot 2022-11-14 at 08 37 01" src="https://user-images.githubusercontent.com/84193980/201585965-b463e096-b91d-44e5-a5b4-2b2980ca097d.png">
 
 </details>
 
