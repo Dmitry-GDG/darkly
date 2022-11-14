@@ -53,13 +53,17 @@
 python3 bf_login.py
 ```
 
-</details>
-
 Брутфорсом получены следующие пароли:
 
 <img width="581" alt="Screen Shot 2022-11-13 at 07 06 55" src="https://user-images.githubusercontent.com/84193980/201506871-5f672d26-6b82-41d6-813d-01639bbe05ff.png">
 
 Заходим по адресу: http://192.168.56.3/?page=signin, вводим логин и пароль. Наслаждаемся!
+	
+<img width="829" alt="Screen Shot 2022-11-14 at 14 54 27" src="https://user-images.githubusercontent.com/84193980/201653941-2e0c5167-d9ab-430d-9456-c6e7ca03107b.png">
+
+</details>
+
+THE FLAG IS : B3A6E43DDF8B4BBB4125E5E7D23040433827759D4DE1C04EA63907479A80A6B2
 
 ### Как исправить:
 - Используйте более надежное имя пользователя и пароль
