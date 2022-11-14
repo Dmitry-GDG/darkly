@@ -497,7 +497,7 @@ Good job! Flag : df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c
 
 Добавив `/?page=../` к нашему URL-адресу и благодаря индексам, отображаемым на сайте при каждой попытке, нам удалось вернуться к файлу `/etc/passwd`.
 
-http://192.168.56.3/?page=../../../../../../../etc/passwd
+<img width="906" alt="Screen Shot 2022-11-14 at 06 47 04" src="https://user-images.githubusercontent.com/84193980/201572544-32e5db20-ccd3-40e4-b5f0-a8370b7c81e3.png">
 
 </details>
 
