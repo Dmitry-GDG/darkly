@@ -750,11 +750,11 @@ THE FLAG IS : 928D819FC19405AE09921A2B71227BD9ABA106F9D2D37AC412E9E5A750F1506D
 
 В Chrome нажмите правой кнопкой мыши на поле ввода имени -> Inspect
 
-
+<img width="644" alt="Screen Shot 2022-11-14 at 13 24 16" src="https://user-images.githubusercontent.com/84193980/201645115-09185351-1b04-4d8f-85f2-633121d65225.png">
 
 Для получения флага просто напишите "script" в поле Name
 
-(то же самое мы получим при любой комбинации из букв `particles` в любом регистре)
+<img width="823" alt="Screen Shot 2022-11-14 at 13 14 24" src="https://user-images.githubusercontent.com/84193980/201645092-28fec800-26ac-46be-8d8a-8ec9c4796bd9.png">
 
 </details>
 
