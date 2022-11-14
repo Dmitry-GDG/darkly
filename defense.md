@@ -526,10 +526,14 @@ The flag is : b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0
 В браузере перейти
 
 	http://192.168.56.3/robots.txt
+	
+<img width="439" alt="Screen Shot 2022-11-14 at 07 25 59" src="https://user-images.githubusercontent.com/84193980/201576736-e9c4ce3c-a872-46c9-8712-71c83d095223.png">
 
 Мы видим, что существует папка /whatever. Перейдём в неё:
 
 	http://192.168.56.3/whatever
+	
+<img width="478" alt="Screen Shot 2022-11-14 at 07 27 24" src="https://user-images.githubusercontent.com/84193980/201576777-c5d45dc4-c222-4132-b971-7afaeecec448.png">
 
 В этой папке есть доступ к файлу htpasswd. Скачаем этот файл. Внутри него только одна строчка:
 
@@ -549,7 +553,10 @@ The flag is : b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0
 Username: root
 Password: qwerty123@
 ```
+	
+<img width="880" alt="Screen Shot 2022-11-14 at 07 33 55" src="https://user-images.githubusercontent.com/84193980/201576817-f151acef-205c-4f1f-a9b1-7ce626e108fe.png">
 
+<img width="889" alt="Screen Shot 2022-11-14 at 07 35 14" src="https://user-images.githubusercontent.com/84193980/201576864-7ce13744-fb81-44f7-aa50-3f0e7ed32ab4.png">
 
 </details>
 
