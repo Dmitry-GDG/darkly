@@ -1,7 +1,7 @@
-| [README](README.md) | [subject](sublect_ru.md) | [How to start a web server](howTo.md) | defense |
+| [README](README.md) | [subject](subject_ru.md) | [How to start a web server](howTo.md) | defense |
 |-|-|-|-|
 
-#Защита проекта
+# Защита проекта
 
 <details><summary>Запускаем ВМ, получаем на экране IP адрес запущенного сервера.</summary>
 
@@ -796,5 +796,5 @@ THE FLAG IS : 0FBB54BBF7D099713CA4BE297E1BC7DA0173D8B3C21C1811B916A3A86652724E
 </details>
 
 
-| [README](README.md) | [subject](sublect_ru.md) | [How to start a web server](howTo.md) | defense |
+| [README](README.md) | [subject](subject_ru.md) | [How to start a web server](howTo.md) | defense |
 |-|-|-|-|
